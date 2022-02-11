@@ -1,0 +1,34 @@
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.grid-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 60px 400px;
+    grid-template-columns: 1fr 10fr 1fr;
+
+    grid-template-areas: 
+
+    'h h h '
+    'c1 m c2'
+;}
+
+        header{
+            background-color: rgb(146, 117, 173);
+            grid-area: h;
+        }
+        main{
+            background-color: rgb(179, 226, 210);
+            grid-area: m;
+        }
+        .c1{background-color: rgb(255, 147, 156);
+grid-area: c1 ;
+        }
+        .c2{background-color: rgb(255, 147, 156);
+grid-area: c2;
+        }

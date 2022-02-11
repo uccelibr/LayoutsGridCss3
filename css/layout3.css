@@ -1,0 +1,26 @@
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100px 1fr;
+    grid-template-areas: 
+        'c1 m'
+    ;}
+
+
+
+
+        .c1{
+            background-color: rgb(146, 117, 173);
+        }
+        main{
+            background-color: rgb(179, 226, 210);
+        }
+        
+
+       
